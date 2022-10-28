@@ -1,4 +1,78 @@
 .DashImg {
-    flex: 1;
+    width: 100%;
     background-color: #f5f6f8;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 45%;
+    margin-left: 30px;
+}
+
+.card__content {}
+
+.single__data {
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    border: solid 3px lightgrey;
+    cursor: pointer;
+}
+
+.single__data__content {
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    border: solid 3px lightgrey;
+    cursor: pointer;
+}
+
+
+.data__content h4 {
+    color: var(--heading-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.data__content h4 span {
+
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.data__text {
+    color: rgb(129, 119, 119);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: -2rem;
+}
+
+.data__text__para {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+button {
+    background-color: rgb(4, 4, 74);
+    color: white;
+    padding: 6px;
+}
+
+.single__data__performance {
+    border-radius: 5px;
+    padding: 10px;
+    width: 20%;
+    border: solid 3px lightgrey;
+    cursor: pointer;
+}
+
+.single__data__data {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+
 }
