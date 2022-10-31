@@ -1,5 +1,9 @@
+import { } from '@mui/icons-material';
+import { keyboard } from '@testing-library/user-event/dist/keyboard/index.js';
 import React from 'react'
-import './DashImg.scss'
+import DashData from './DashData.jsx';
+import './DashImg.scss';
+
 
 export default function DashImg() {
     return (
@@ -28,6 +32,10 @@ export default function DashImg() {
                 </div>
             </div>
             <div className='single__data__performance'>
+                <h4>Performance</h4>
+                <div className='single_data_performance_table'>
+                    {DashData.key}
+                </div>
 
             </div>
         </div>
